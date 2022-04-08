@@ -1,6 +1,6 @@
 Applying Singular Value Decomposition on Paired Data
 ==============================
-This is a submission of **assignment 1** for the **CIS726** course.
+This is a submission of **assignment 2** for the **CIS726** course.
 
 It contains the code necessary to conduct simple SVD transformation and inspect the resulting effects.
 
