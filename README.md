@@ -36,7 +36,7 @@ Methodology
 > * Read the CSV file in order to acquire the JSON files ID, along with the true class.
 > * Fetch the textual data based on the JSON ID.
 > * Removing rows in which that have empty/null text values.
-> * Discarding necessary columns.
+> * Discarding unnecessary columns.
 > * Applying NLP methods, which should improve the results.
 > * Vectorize both Deutsch and English texts, based on user-selected vectorization technique.
 > * Calculate the similarity of the vectors.
