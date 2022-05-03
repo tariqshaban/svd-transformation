@@ -58,12 +58,12 @@ Findings
 <details>
   <summary>TF-IDF</summary>
 
-| Method         |  Correlation Before  |  Correlation After  |
-|:---------------|:--------------------:|:-------------------:|
-| Pearson        |       0.037072       |      -0.057025      |
-| Spearman       |      -0.033813       |      -0.073301      |
-| Point Biserial |       0.037072       |      -0.057025      |
-| Kendall’s Tau  |      -0.029307       |      -0.057911      |
+| Method         | Correlation Before | Correlation After |
+|:---------------|:------------------:|:-----------------:|
+| Pearson        |    -48.18527587    |    -7.65953271    |
+| Spearman       |    -51.96585235    |    -8.40274874    |
+| Point Biserial |    -48.18527587    |    -7.65953271    |
+| Kendall’s Tau  |    -41.21671761    |    -6.24882997    |
 
 [Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 
@@ -74,12 +74,12 @@ Findings
 <details>
   <summary>Count Vectorizer</summary>
 
-| Method         |  Correlation Before  |  Correlation After  |
-|:---------------|:--------------------:|:-------------------:|
-| Pearson        |       0.030571       |      -0.093689      |
-| Spearman       |       -0.03434       |      -0.100168      |
-| Point Biserial |       0.030571       |      -0.093689      |
-| Kendall’s Tau  |      -0.029663       |      -0.077723      |
+| Method         | Correlation Before | Correlation After |
+|:---------------|:------------------:|:-----------------:|
+| Pearson        |    -46.41424174    |    -11.2748719    |
+| Spearman       |    -51.03216794    |    -12.5920341    |
+| Point Biserial |    -46.41424174    |    -11.2748719    |
+| Kendall’s Tau  |    -40.19397027    |    -9.5002537     |
 
 [Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html)
 
@@ -90,12 +90,12 @@ Findings
 <details>
   <summary>Hashing Vectorizer</summary>
 
-|     Method     |  Correlation Before  |  Correlation After  |
-|:--------------:|:--------------------:|:-------------------:|
-|    Pearson     |       0.015116       |      -0.060267      |
-|    Spearman    |       0.007608       |      -0.115777      |
-| Point Biserial |       0.015116       |      -0.060267      |
-| Kendall’s Tau  |       0.005918       |      -0.091439      |
+|     Method     | Correlation Before | Correlation After |
+|:--------------:|:------------------:|:-----------------:|
+|    Pearson     |    -44.87897647    |   -20.94264864    |
+|    Spearman    |    -48.06676036    |   -24.07069957    |
+| Point Biserial |    -44.87897647    |   -20.94264864    |
+| Kendall’s Tau  |    -38.58276655    |   -19.10211439    |
 
 [Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.HashingVectorizer.html)
 
@@ -106,12 +106,12 @@ Findings
 <details>
   <summary>Doc2Vec Vectorizer</summary>
 
-| Method         |  Correlation Before  | Correlation After |
-|----------------|:--------------------:|:-----------------:|
-| Pearson        |      -0.017074       |     -0.133401     |
-| Spearman       |       0.014611       |   **-0.220485**   |
-| Point Biserial |      -0.017074       |     -0.133401     |
-| Kendall’s Tau  |       0.011767       |   **-0.176767**   |
+| Method         | Correlation Before | Correlation After |
+|----------------|:------------------:|:-----------------:|
+| Pearson        |    -13.04976246    |  **-14.2113953**  |
+| Spearman       |    -22.69244976    | **-26.81448982**  |
+| Point Biserial |    -13.04976246    |  **-14.2113953**  |
+| Kendall’s Tau  |    -17.93064231    | **-21.68947384**  |
 
 [Documentation](https://radimrehurek.com/gensim/models/doc2vec.html)
 
@@ -122,12 +122,12 @@ Findings
 <details>
   <summary>SentenceTransformers Vectorizer</summary>
 
-| Method         |  Correlation Before  |  Correlation After  |
-|----------------|:--------------------:|:-------------------:|
-| Pearson        |      -0.082604       |      -0.111177      |
-| Spearman       |      -0.087866       |      -0.070735      |
-| Point Biserial |      -0.082604       |      -0.111177      |
-| Kendall’s Tau  |       -0.06885       |      -0.059435      |
+| Method         | Correlation Before | Correlation After |
+|----------------|:------------------:|:-----------------:|
+| Pearson        |    -43.06046748    |   -11.38683546    |
+| Spearman       |    -43.16662277    |    -7.58305467    |
+| Point Biserial |    -43.06046748    |   -11.38683546    |
+| Kendall’s Tau  |    -33.73352116    |    -6.29963347    |
 
 [Documentation](https://www.sbert.net)
 
@@ -138,12 +138,12 @@ Findings
 <details>
   <summary>InferSent Vectorizer</summary>
 
-| Method         |  Correlation Before  | Correlation After |
-|----------------|:--------------------:|:-----------------:|
-| Pearson        |      -0.048277       |   **-0.232986**   |
-| Spearman       |      -0.105281       |   **-0.258727**   |
-| Point Biserial |      -0.048277       |   **-0.232986**   |
-| Kendall’s Tau  |      -0.082398       |   **-0.202672**   |
+| Method         | Correlation Before | Correlation After |
+|----------------|:------------------:|:-----------------:|
+| Pearson        |    -33.22372089    |    -23.4371719    |
+| Spearman       |    -34.21124055    |   -25.97421831    |
+| Point Biserial |    -33.22372089    |    -23.4371719    |
+| Kendall’s Tau  |    -27.22840212    |   -20.42130159    |
 
 [Repository](https://github.com/facebookresearch/InferSent)
 
@@ -154,12 +154,12 @@ Findings
 <details>
   <summary>Universal Sentence Encoder</summary>
 
-| Method         |  Correlation Before  |  Correlation After  |
-|----------------|:--------------------:|:-------------------:|
-| Pearson        |      -0.105371       |       0.02989       |
-| Spearman       |      -0.115516       |      -0.002465      |
-| Point Biserial |      -0.105371       |       0.02989       |
-| Kendall’s Tau  |      -0.090571       |      -0.00254       |
+| Method         | Correlation Before | Correlation After |
+|----------------|:------------------:|:-----------------:|
+| Pearson        |    -62.09828636    |   -14.98977225    |
+| Spearman       |    -54.08919363    |   -11.55237896    |
+| Point Biserial |    -62.09828636    |   -14.98977225    |
+| Kendall’s Tau  |    -43.58939933    |    -8.73820126    |
 
 [Documentation](https://tfhub.dev/google/universal-sentence-encoder-multilingual/3)
 
@@ -178,7 +178,10 @@ After conducting the previous operations, we can conclude that:
 * The `Universal Sentence Encoder` transformation has negatively affected the correlation, due to the fact that the
   resulting vectors already project on the same dimensionality, hence, 
   finding the similarity does not require any transformation. Refer to [this notebook](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/cross_lingual_similarity_with_tf_hub_multilingual_universal_encoder.ipynb).
-* It can be concluded that the `InferSent` vectorization technique obtained the highest correlation.
+* It can be concluded that the `Universal Sentence Encoder` vectorization technique obtained the highest correlation 
+  before the transformation.
+* It can be concluded that the `InferSent` vectorization technique obtained the highest correlation after the
+  transformation.
 
 Notes
 ------------
